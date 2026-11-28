@@ -115,10 +115,10 @@ function render() {
     document.title = `${found ? found.title : "Deal not found"} | Black Friday Beacon`;
     app.innerHTML = found ? dealPage(found) : missingPage();
     countLine.textContent = found
-      ? `${found.store} · checked 27 Nov 2026`
+      ? `${found.store} · checked 28 Nov 2026`
       : "";
   } else {
-    document.title = "Black Friday Beacon — 43 real Black Friday deals, checked 27 Nov 2026";
+    document.title = "Black Friday Beacon — 85 real Black Friday deals, checked 28 Nov 2026";
     renderList();
   }
   window.scrollTo(0, 0);
